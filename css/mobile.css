@@ -1,0 +1,95 @@
+@media (max-width: 500px) {
+
+
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  #navbar #social-media {
+    margin-bottom: 1.5rem;
+  }
+  
+
+  #about {
+    height: 100vh;
+    z-index: 0;
+  }
+
+  #about .about-text h1 {
+    font-size: xx-large;
+    margin-bottom: 2rem;
+  }
+
+  #about p {
+    font-size: 1.1rem;
+    text-align: justify;
+    width: 100%;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  #showcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: 0;
+    z-index: 0;
+  }
+
+  #showcase .showcase-img{
+    height: 40vh;
+    width: 90vw;
+    border-radius: 25%;
+    margin-top: 1rem;
+  }
+
+  #showcase .showcase-text{
+    display: flex;
+    height: 45vh;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  #showcase .showcase-text .primary-heading h1{
+    width: 95%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+    justify-content: center;
+  }
+
+  /* #gallery .container div:last-child {
+    display: none;
+  } */
+
+  #gallery .item-1,
+  #gallery .item-2,
+  #gallery .item-3,
+  #gallery .item-4,
+  #gallery .item-5,
+  #gallery .item-6 {
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: 0;
+    border-radius: 0%;
+  }
+
+  #contact h1{
+    font-size: xx-large;
+  }
+
+  #contact div > input,
+  #contact textarea {
+    width: 95%;
+  }
+}

@@ -148,6 +148,11 @@ p {
   color: black;
 }
 
+.btn-light:hover{
+  background: darkred;
+  color: black;
+}
+
 .btn-dark {
   display: inline-block;
   background: black;

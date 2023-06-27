@@ -111,8 +111,10 @@ p {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 
 .btn {
@@ -406,7 +408,8 @@ p {
 }
 
 #contact label {
-  padding-top: 1rem;
+  display: flex;
+  justify-content:center;
 }
 
 #contact label,
@@ -417,7 +420,7 @@ p {
 
 #contact div > input,
 #contact textarea {
-  width: 98vw;
+  width: 20vw;
   margin-bottom: 1rem;
   border-radius: 3px;
   background-color: white;
